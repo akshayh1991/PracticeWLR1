@@ -1,0 +1,44 @@
+{
+	"Type":"DevDef",
+	"Name":"EPM-Suite",
+	"Vers":1,
+	"App":true,
+	"Langs": [
+		{"Code":"fr", "Name":"fr EPM"},
+		{"Code":"de", "Name":"de EPM"},
+		{"Code":"es", "Name":"es EPM"},
+		{"Code":"zh", "Name":"zh EPM"}
+	],
+	"DevPolDefs": [
+	],
+	"DevPermDefs": [
+		{	
+			"Name":"CAN_EDIT_OWN_PASSWORD",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_EDIT_OWN_PASSWORD","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_EDIT_OWN_PASSWORD","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_EDIT_OWN_PASSWORD","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_EDIT_OWN_PASSWORD","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_EDIT_COMMON_SYSTEM_FEATURES",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Vers":0,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_EDIT_COMMON_SYSTEM_FEATURES","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_EDIT_COMMON_SYSTEM_FEATURES","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_EDIT_COMMON_SYSTEM_FEATURES","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_EDIT_COMMON_SYSTEM_FEATURES","Desc":"Desc", "Cat":"Cat"}
+			]
+		}
+	]
+}
+

@@ -1,0 +1,108 @@
+{
+	"Type":"DevDef",
+	"Name":"User Access Manager",
+	"Vers":1,
+	"App":true,
+	"Langs": [
+		{"Code":"fr", "Name":"fr SecMan"},
+		{"Code":"de", "Name":"de SecMan"},
+		{"Code":"es", "Name":"es SecMan"},
+		{"Code":"zh", "Name":"zh SecMan"}
+	],
+	"DevPolDefs": [
+	],
+	"DevPermDefs": [
+		{	
+			"Name":"CAN_EDIT_SYSTEM_FEATURES",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Vers":0,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_EDIT_SYSTEM_FEATURES","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_EDIT_SYSTEM_FEATURES","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_EDIT_SYSTEM_FEATURES","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_EDIT_SYSTEM_FEATURES","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_EDIT_COMMON_SYSTEM_FEATURES",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Vers":0,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_EDIT_COMMON_SYSTEM_FEATURES","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_EDIT_COMMON_SYSTEM_FEATURES","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_EDIT_COMMON_SYSTEM_FEATURES","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_EDIT_COMMON_SYSTEM_FEATURES","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_EDIT_SECURITY",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_EDIT_SECURITY","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_EDIT_SECURITY","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_EDIT_SECURITY","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_EDIT_SECURITY","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_EDIT_ALL_PASSWORDS",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_EDIT_ALL_PASSWORDS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_EDIT_ALL_PASSWORDS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_EDIT_ALL_PASSWORDS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_EDIT_ALL_PASSWORDS","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_SIGN",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_SIGN","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_SIGN","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_SIGN","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_SIGN","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_AUTHORIZE",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_AUTHORIZE","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_AUTHORIZE","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_AUTHORIZE","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_AUTHORIZE","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_NOTE",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_NOTE","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_NOTE","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_NOTE","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_NOTE","Desc":"Desc", "Cat":"Cat"}
+			]
+		}
+	]
+}
+

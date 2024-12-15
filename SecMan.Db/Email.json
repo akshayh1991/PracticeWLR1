@@ -1,0 +1,82 @@
+{
+	"Type":"SysFeat",
+	"Name":"Email",
+	"Description":"Testing Description",
+	"Common":true,
+	"TestConnection":true,
+	"Vers":1,
+	"Langs": [
+		{"Code":"fr", "Name":"fr Email"},
+		{"Code":"de", "Name":"de Email"},
+		{"Code":"es", "Name":"es Email"},
+		{"Code":"zh", "Name":"zh Email"}
+	],
+	"SysFeatProps": [
+		{
+			"Name":"Addr",
+			"Vers":1,
+			"Desc":"Desc",
+			"Cat":"Cat", "Posn":0,
+			"ValType":"IP", "ValMin": 0, "ValMax": 0, "Units":"Units", "Val":"smtp.office365.com",
+			"Langs": [
+				{"Code":"fr", "Name":"fr SMPT Host Addr","Desc":"fr Desc", "Cat":"fr Cat", "Units":"fr Units"},
+				{"Code":"de", "Name":"de SMPT Host Addr","Desc":"de Desc", "Cat":"de Cat", "Units":"de Units"},
+				{"Code":"es", "Name":"es SMPT Host Addr","Desc":"es Desc", "Cat":"es Cat", "Units":"es Units"},
+				{"Code":"zh", "Name":"zh SMPT Host Addr","Desc":"zh Desc", "Cat":"zh Cat", "Units":"zh Units"}
+			]
+		},
+		{
+			"Name":"Port",
+			"Vers":1,
+			"Desc":"Desc",
+			"Cat":"Cat", "Posn":0,
+			"ValType":"Int", "ValMin": 0, "ValMax": 9999, "Units":"Units", "Val":"587",
+			"Langs": [
+				{"Code":"fr", "Name":"fr SMPT Host Port","Desc":"fr Desc", "Cat":"fr Cat", "Units":"fr Units"},
+				{"Code":"de", "Name":"de SMPT Host Port","Desc":"de Desc", "Cat":"de Cat", "Units":"de Units"},
+				{"Code":"es", "Name":"es SMPT Host Port","Desc":"es Desc", "Cat":"es Cat", "Units":"es Units"},
+				{"Code":"zh", "Name":"zh SMPT Host Port","Desc":"zh Desc", "Cat":"zh Cat", "Units":"zh Units"}
+			]
+		},
+		{
+			"Name":"TLS",
+			"Vers":1,
+			"Desc":"Desc",
+			"Cat":"Cat", "Posn":0, 
+			"ValType":"Bool", "ValMin": 0, "ValMax": 0, "Units":"Units", "Val":"False",
+			"Langs": [
+				{"Code":"fr", "Name":"fr TLS","Desc":"fr Desc", "Cat":"fr Cat", "Units":"fr Units"},
+				{"Code":"de", "Name":"de TLS","Desc":"de Desc", "Cat":"de Cat", "Units":"de Units"},
+				{"Code":"es", "Name":"es TLS","Desc":"es Desc", "Cat":"es Cat", "Units":"es Units"},
+				{"Code":"zh", "Name":"zh TLS","Desc":"zh Desc", "Cat":"zh Cat", "Units":"zh Units"}
+			]
+		},
+		{
+			"Name":"Sender",
+			"Vers":1,
+			"Desc":"Desc",
+			"Cat":"Cat", "Posn":0, 
+			"ValType":"Email", "ValMin": 0, "ValMax": 0, "Units":"Units", "Val":"akshay_huded@thbs.com",
+			"Langs": [
+				{"Code":"fr", "Name":"fr TLS","Desc":"fr Desc", "Cat":"fr Cat", "Units":"fr Units"},
+				{"Code":"de", "Name":"de TLS","Desc":"de Desc", "Cat":"de Cat", "Units":"de Units"},
+				{"Code":"es", "Name":"es TLS","Desc":"es Desc", "Cat":"es Cat", "Units":"es Units"},
+				{"Code":"zh", "Name":"zh TLS","Desc":"zh Desc", "Cat":"zh Cat", "Units":"zh Units"}
+			]
+		},
+		{
+			"Name":"Password",
+			"Vers":1,
+			"Desc":"Desc",
+			"Cat":"Cat", "Posn":0, 
+			"ValType":"Email", "ValMin": 0, "ValMax": 0, "Units":"Units", "Val":"gtnqvtwnpwmbslqz",
+			"Langs": [
+				{"Code":"fr", "Name":"fr TLS","Desc":"fr Desc", "Cat":"fr Cat", "Units":"fr Units"},
+				{"Code":"de", "Name":"de TLS","Desc":"de Desc", "Cat":"de Cat", "Units":"de Units"},
+				{"Code":"es", "Name":"es TLS","Desc":"es Desc", "Cat":"es Cat", "Units":"es Units"},
+				{"Code":"zh", "Name":"zh TLS","Desc":"zh Desc", "Cat":"zh Cat", "Units":"zh Units"}
+			]
+		}
+	]
+}
+

@@ -1,0 +1,38 @@
+C:\Users\akshay_huded\source\repos\Devices\nextgen_sw\SecurityManager\SecMan.Data\bin\Debug\net8.0-windows\SecMan.Data.deps.json
+C:\Users\akshay_huded\source\repos\Devices\nextgen_sw\SecurityManager\SecMan.Data\bin\Debug\net8.0-windows\SecMan.Data.runtimeconfig.json
+C:\Users\akshay_huded\source\repos\Devices\nextgen_sw\SecurityManager\SecMan.Data\bin\Debug\net8.0-windows\SecMan.Data.dll
+C:\Users\akshay_huded\source\repos\Devices\nextgen_sw\SecurityManager\SecMan.Data\bin\Debug\net8.0-windows\SecMan.Data.pdb
+C:\Users\akshay_huded\source\repos\Devices\nextgen_sw\SecurityManager\SecMan.Data\bin\Debug\net8.0-windows\SecMan.Interfaces.dll
+C:\Users\akshay_huded\source\repos\Devices\nextgen_sw\SecurityManager\SecMan.Data\bin\Debug\net8.0-windows\SecMan.Model.dll
+C:\Users\akshay_huded\source\repos\Devices\nextgen_sw\SecurityManager\SecMan.Data\bin\Debug\net8.0-windows\SecMan.Interfaces.pdb
+C:\Users\akshay_huded\source\repos\Devices\nextgen_sw\SecurityManager\SecMan.Data\bin\Debug\net8.0-windows\SecMan.Model.pdb
+C:\Users\akshay_huded\source\repos\Devices\nextgen_sw\SecurityManager\SecMan.Data\obj\Debug\net8.0-windows\SecMan.Data.csproj.AssemblyReference.cache
+C:\Users\akshay_huded\source\repos\Devices\nextgen_sw\SecurityManager\SecMan.Data\obj\Debug\net8.0-windows\SecMan.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akshay_huded\source\repos\Devices\nextgen_sw\SecurityManager\SecMan.Data\obj\Debug\net8.0-windows\SecMan.Data.AssemblyInfoInputs.cache
+C:\Users\akshay_huded\source\repos\Devices\nextgen_sw\SecurityManager\SecMan.Data\obj\Debug\net8.0-windows\SecMan.Data.AssemblyInfo.cs
+C:\Users\akshay_huded\source\repos\Devices\nextgen_sw\SecurityManager\SecMan.Data\obj\Debug\net8.0-windows\SecMan.Data.csproj.CoreCompileInputs.cache
+C:\Users\akshay_huded\source\repos\Devices\nextgen_sw\SecurityManager\SecMan.Data\obj\Debug\net8.0-windows\SecMan.D.73C4C312.Up2Date
+C:\Users\akshay_huded\source\repos\Devices\nextgen_sw\SecurityManager\SecMan.Data\obj\Debug\net8.0-windows\SecMan.Data.dll
+C:\Users\akshay_huded\source\repos\Devices\nextgen_sw\SecurityManager\SecMan.Data\obj\Debug\net8.0-windows\refint\SecMan.Data.dll
+C:\Users\akshay_huded\source\repos\Devices\nextgen_sw\SecurityManager\SecMan.Data\obj\Debug\net8.0-windows\SecMan.Data.pdb
+C:\Users\akshay_huded\source\repos\Devices\nextgen_sw\SecurityManager\SecMan.Data\obj\Debug\net8.0-windows\SecMan.Data.genruntimeconfig.cache
+C:\Users\akshay_huded\source\repos\Devices\nextgen_sw\SecurityManager\SecMan.Data\obj\Debug\net8.0-windows\ref\SecMan.Data.dll
+C:\Users\akshay_huded\OneDrive - Torry Harris Business Solutions Pvt Ltd\Desktop\Device\SecurityManager\SecMan.Data\bin\Debug\net8.0-windows\SecMan.Data.deps.json
+C:\Users\akshay_huded\OneDrive - Torry Harris Business Solutions Pvt Ltd\Desktop\Device\SecurityManager\SecMan.Data\bin\Debug\net8.0-windows\SecMan.Data.runtimeconfig.json
+C:\Users\akshay_huded\OneDrive - Torry Harris Business Solutions Pvt Ltd\Desktop\Device\SecurityManager\SecMan.Data\bin\Debug\net8.0-windows\SecMan.Data.dll
+C:\Users\akshay_huded\OneDrive - Torry Harris Business Solutions Pvt Ltd\Desktop\Device\SecurityManager\SecMan.Data\bin\Debug\net8.0-windows\SecMan.Data.pdb
+C:\Users\akshay_huded\OneDrive - Torry Harris Business Solutions Pvt Ltd\Desktop\Device\SecurityManager\SecMan.Data\bin\Debug\net8.0-windows\SecMan.Interfaces.dll
+C:\Users\akshay_huded\OneDrive - Torry Harris Business Solutions Pvt Ltd\Desktop\Device\SecurityManager\SecMan.Data\bin\Debug\net8.0-windows\SecMan.Model.dll
+C:\Users\akshay_huded\OneDrive - Torry Harris Business Solutions Pvt Ltd\Desktop\Device\SecurityManager\SecMan.Data\bin\Debug\net8.0-windows\SecMan.Interfaces.pdb
+C:\Users\akshay_huded\OneDrive - Torry Harris Business Solutions Pvt Ltd\Desktop\Device\SecurityManager\SecMan.Data\bin\Debug\net8.0-windows\SecMan.Model.pdb
+C:\Users\akshay_huded\OneDrive - Torry Harris Business Solutions Pvt Ltd\Desktop\Device\SecurityManager\SecMan.Data\obj\Debug\net8.0-windows\SecMan.Data.csproj.AssemblyReference.cache
+C:\Users\akshay_huded\OneDrive - Torry Harris Business Solutions Pvt Ltd\Desktop\Device\SecurityManager\SecMan.Data\obj\Debug\net8.0-windows\SecMan.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akshay_huded\OneDrive - Torry Harris Business Solutions Pvt Ltd\Desktop\Device\SecurityManager\SecMan.Data\obj\Debug\net8.0-windows\SecMan.Data.AssemblyInfoInputs.cache
+C:\Users\akshay_huded\OneDrive - Torry Harris Business Solutions Pvt Ltd\Desktop\Device\SecurityManager\SecMan.Data\obj\Debug\net8.0-windows\SecMan.Data.AssemblyInfo.cs
+C:\Users\akshay_huded\OneDrive - Torry Harris Business Solutions Pvt Ltd\Desktop\Device\SecurityManager\SecMan.Data\obj\Debug\net8.0-windows\SecMan.Data.csproj.CoreCompileInputs.cache
+C:\Users\akshay_huded\OneDrive - Torry Harris Business Solutions Pvt Ltd\Desktop\Device\SecurityManager\SecMan.Data\obj\Debug\net8.0-windows\SecMan.D.73C4C312.Up2Date
+C:\Users\akshay_huded\OneDrive - Torry Harris Business Solutions Pvt Ltd\Desktop\Device\SecurityManager\SecMan.Data\obj\Debug\net8.0-windows\SecMan.Data.dll
+C:\Users\akshay_huded\OneDrive - Torry Harris Business Solutions Pvt Ltd\Desktop\Device\SecurityManager\SecMan.Data\obj\Debug\net8.0-windows\refint\SecMan.Data.dll
+C:\Users\akshay_huded\OneDrive - Torry Harris Business Solutions Pvt Ltd\Desktop\Device\SecurityManager\SecMan.Data\obj\Debug\net8.0-windows\SecMan.Data.pdb
+C:\Users\akshay_huded\OneDrive - Torry Harris Business Solutions Pvt Ltd\Desktop\Device\SecurityManager\SecMan.Data\obj\Debug\net8.0-windows\SecMan.Data.genruntimeconfig.cache
+C:\Users\akshay_huded\OneDrive - Torry Harris Business Solutions Pvt Ltd\Desktop\Device\SecurityManager\SecMan.Data\obj\Debug\net8.0-windows\ref\SecMan.Data.dll

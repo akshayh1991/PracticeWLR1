@@ -1,0 +1,87 @@
+{
+	"Vers":1,
+	"Type":"DevDef",
+	"Name":"ERPM",
+	"App":true,
+	"Langs": [
+		{"Code":"fr", "Name":"fr ERPM"},
+		{"Code":"de", "Name":"de ERPM"},
+		{"Code":"es", "Name":"es ERPM"},
+		{"Code":"zh", "Name":"zh ERPM"}
+	],
+	"DevPolDefs": [
+	],
+	"DevPermDefs": [
+		{	
+			"Name":"CAN_01", "Desc":"Desc", "Cat":"Cat", "Vers":1,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"fr CAN_01","Desc":"fr DESC", "Cat":"fr CAT"},
+				{"Code":"de", "Name":"de CAN_01","Desc":"de DESC", "Cat":"de CAT"},
+				{"Code":"es", "Name":"es CAN_01","Desc":"es DESC", "Cat":"es CAT"},
+				{"Code":"zh", "Name":"zh CAN_01","Desc":"zh DESC", "Cat":"zh CAT"}
+			]
+		},
+		{	
+			"Name":"CAN_02", "Desc":"Desc", "Cat":"Cat", "Vers":1,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"fr CAN_02","Desc":"fr DESC", "Cat":"fr CAT"},
+				{"Code":"de", "Name":"de CAN_02","Desc":"de DESC", "Cat":"de CAT"},
+				{"Code":"es", "Name":"es CAN_02","Desc":"es DESC", "Cat":"es CAT"},
+				{"Code":"zh", "Name":"zh CAN_02","Desc":"zh DESC", "Cat":"zh CAT"}
+			]
+		},
+		{	
+			"Name":"CAN_03", "Desc":"Desc", "Cat":"Cat", "Vers":1,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"fr CAN_03","Desc":"fr DESC", "Cat":"fr CAT"},
+				{"Code":"de", "Name":"de CAN_03","Desc":"de DESC", "Cat":"de CAT"},
+				{"Code":"es", "Name":"es CAN_03","Desc":"es DESC", "Cat":"es CAT"},
+				{"Code":"zh", "Name":"zh CAN_03","Desc":"zh DESC", "Cat":"zh CAT"}
+			]
+		},
+		{	
+			"Name":"CAN_04", "Desc":"Desc", "Cat":"Cat", "Vers":1,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"fr CAN_04","Desc":"fr DESC", "Cat":"fr CAT"},
+				{"Code":"de", "Name":"de CAN_04","Desc":"de DESC", "Cat":"de CAT"},
+				{"Code":"es", "Name":"es CAN_04","Desc":"es DESC", "Cat":"es CAT"},
+				{"Code":"zh", "Name":"zh CAN_04","Desc":"zh DESC", "Cat":"zh CAT"}
+			]
+		},
+		{	
+			"Name":"CAN_05", "Desc":"Desc", "Cat":"Cat", "Vers":1,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"fr CAN_05","Desc":"fr DESC", "Cat":"fr CAT"},
+				{"Code":"de", "Name":"de CAN_05","Desc":"de DESC", "Cat":"de CAT"},
+				{"Code":"es", "Name":"es CAN_05","Desc":"es DESC", "Cat":"es CAT"},
+				{"Code":"zh", "Name":"zh CAN_05","Desc":"zh DESC", "Cat":"zh CAT"}
+			]
+		},
+		{	
+			"Name":"CAN_06", "Desc":"Desc", "Cat":"Cat", "Vers":1,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"fr CAN_06","Desc":"fr DESC", "Cat":"fr CAT"},
+				{"Code":"de", "Name":"de CAN_06","Desc":"de DESC", "Cat":"de CAT"},
+				{"Code":"es", "Name":"es CAN_06","Desc":"es DESC", "Cat":"es CAT"},
+				{"Code":"zh", "Name":"zh CAN_06","Desc":"zh DESC", "Cat":"zh CAT"}
+			]
+		},
+		{	
+			"Name":"CAN_07", "Desc":"Desc", "Cat":"Cat", "Vers":1,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"fr CAN_07","Desc":"fr DESC", "Cat":"fr CAT"},
+				{"Code":"de", "Name":"de CAN_07","Desc":"de DESC", "Cat":"de CAT"},
+				{"Code":"es", "Name":"es CAN_07","Desc":"es DESC", "Cat":"es CAT"},
+				{"Code":"zh", "Name":"zh CAN_07","Desc":"zh DESC", "Cat":"zh CAT"}
+			]
+		}
+	]
+}
+

@@ -1,0 +1,30 @@
+C:\Users\akshay_huded\source\repos\Devices\nextgen_sw\SecurityManager\SecMan.Interfaces\bin\Debug\net8.0\SecMan.Interfaces.deps.json
+C:\Users\akshay_huded\source\repos\Devices\nextgen_sw\SecurityManager\SecMan.Interfaces\bin\Debug\net8.0\SecMan.Interfaces.dll
+C:\Users\akshay_huded\source\repos\Devices\nextgen_sw\SecurityManager\SecMan.Interfaces\bin\Debug\net8.0\SecMan.Interfaces.pdb
+C:\Users\akshay_huded\source\repos\Devices\nextgen_sw\SecurityManager\SecMan.Interfaces\bin\Debug\net8.0\SecMan.Model.dll
+C:\Users\akshay_huded\source\repos\Devices\nextgen_sw\SecurityManager\SecMan.Interfaces\bin\Debug\net8.0\SecMan.Model.pdb
+C:\Users\akshay_huded\source\repos\Devices\nextgen_sw\SecurityManager\SecMan.Interfaces\obj\Debug\net8.0\SecMan.Interfaces.csproj.AssemblyReference.cache
+C:\Users\akshay_huded\source\repos\Devices\nextgen_sw\SecurityManager\SecMan.Interfaces\obj\Debug\net8.0\SecMan.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akshay_huded\source\repos\Devices\nextgen_sw\SecurityManager\SecMan.Interfaces\obj\Debug\net8.0\SecMan.Interfaces.AssemblyInfoInputs.cache
+C:\Users\akshay_huded\source\repos\Devices\nextgen_sw\SecurityManager\SecMan.Interfaces\obj\Debug\net8.0\SecMan.Interfaces.AssemblyInfo.cs
+C:\Users\akshay_huded\source\repos\Devices\nextgen_sw\SecurityManager\SecMan.Interfaces\obj\Debug\net8.0\SecMan.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\akshay_huded\source\repos\Devices\nextgen_sw\SecurityManager\SecMan.Interfaces\obj\Debug\net8.0\SecMan.I.8D04B551.Up2Date
+C:\Users\akshay_huded\source\repos\Devices\nextgen_sw\SecurityManager\SecMan.Interfaces\obj\Debug\net8.0\SecMan.Interfaces.dll
+C:\Users\akshay_huded\source\repos\Devices\nextgen_sw\SecurityManager\SecMan.Interfaces\obj\Debug\net8.0\refint\SecMan.Interfaces.dll
+C:\Users\akshay_huded\source\repos\Devices\nextgen_sw\SecurityManager\SecMan.Interfaces\obj\Debug\net8.0\SecMan.Interfaces.pdb
+C:\Users\akshay_huded\source\repos\Devices\nextgen_sw\SecurityManager\SecMan.Interfaces\obj\Debug\net8.0\ref\SecMan.Interfaces.dll
+C:\Users\akshay_huded\OneDrive - Torry Harris Business Solutions Pvt Ltd\Desktop\Device\SecurityManager\SecMan.Interfaces\bin\Debug\net8.0\SecMan.Interfaces.deps.json
+C:\Users\akshay_huded\OneDrive - Torry Harris Business Solutions Pvt Ltd\Desktop\Device\SecurityManager\SecMan.Interfaces\bin\Debug\net8.0\SecMan.Interfaces.dll
+C:\Users\akshay_huded\OneDrive - Torry Harris Business Solutions Pvt Ltd\Desktop\Device\SecurityManager\SecMan.Interfaces\bin\Debug\net8.0\SecMan.Interfaces.pdb
+C:\Users\akshay_huded\OneDrive - Torry Harris Business Solutions Pvt Ltd\Desktop\Device\SecurityManager\SecMan.Interfaces\bin\Debug\net8.0\SecMan.Model.dll
+C:\Users\akshay_huded\OneDrive - Torry Harris Business Solutions Pvt Ltd\Desktop\Device\SecurityManager\SecMan.Interfaces\bin\Debug\net8.0\SecMan.Model.pdb
+C:\Users\akshay_huded\OneDrive - Torry Harris Business Solutions Pvt Ltd\Desktop\Device\SecurityManager\SecMan.Interfaces\obj\Debug\net8.0\SecMan.Interfaces.csproj.AssemblyReference.cache
+C:\Users\akshay_huded\OneDrive - Torry Harris Business Solutions Pvt Ltd\Desktop\Device\SecurityManager\SecMan.Interfaces\obj\Debug\net8.0\SecMan.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akshay_huded\OneDrive - Torry Harris Business Solutions Pvt Ltd\Desktop\Device\SecurityManager\SecMan.Interfaces\obj\Debug\net8.0\SecMan.Interfaces.AssemblyInfoInputs.cache
+C:\Users\akshay_huded\OneDrive - Torry Harris Business Solutions Pvt Ltd\Desktop\Device\SecurityManager\SecMan.Interfaces\obj\Debug\net8.0\SecMan.Interfaces.AssemblyInfo.cs
+C:\Users\akshay_huded\OneDrive - Torry Harris Business Solutions Pvt Ltd\Desktop\Device\SecurityManager\SecMan.Interfaces\obj\Debug\net8.0\SecMan.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\akshay_huded\OneDrive - Torry Harris Business Solutions Pvt Ltd\Desktop\Device\SecurityManager\SecMan.Interfaces\obj\Debug\net8.0\SecMan.I.8D04B551.Up2Date
+C:\Users\akshay_huded\OneDrive - Torry Harris Business Solutions Pvt Ltd\Desktop\Device\SecurityManager\SecMan.Interfaces\obj\Debug\net8.0\SecMan.Interfaces.dll
+C:\Users\akshay_huded\OneDrive - Torry Harris Business Solutions Pvt Ltd\Desktop\Device\SecurityManager\SecMan.Interfaces\obj\Debug\net8.0\refint\SecMan.Interfaces.dll
+C:\Users\akshay_huded\OneDrive - Torry Harris Business Solutions Pvt Ltd\Desktop\Device\SecurityManager\SecMan.Interfaces\obj\Debug\net8.0\SecMan.Interfaces.pdb
+C:\Users\akshay_huded\OneDrive - Torry Harris Business Solutions Pvt Ltd\Desktop\Device\SecurityManager\SecMan.Interfaces\obj\Debug\net8.0\ref\SecMan.Interfaces.dll

@@ -1,0 +1,23 @@
+{
+  "Vers": 1,
+  "Type": "DevList",
+  "Name": "ApplicationLauncher",
+  "Apps": [
+    {
+      "Name": "EPM",
+      "InstalledOn": "2024-10-10T00:00:00"
+    },
+    {
+      "Name": "ERPM",
+      "InstalledOn": "2024-10-10T00:00:00"
+    },
+    {
+      "Name": "Reviewer",
+      "InstalledOn": "2024-10-10T00:00:00"
+    },
+    {
+      "Name": "User Access Manager",
+      "InstalledOn": "2024-10-10T00:00:00"
+    }
+  ]
+}

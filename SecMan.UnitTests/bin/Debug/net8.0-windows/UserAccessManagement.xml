@@ -1,0 +1,382 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UserAccessManagement</name>
+    </assembly>
+    <members>
+        <member name="T:UserAccessManagement.Controllers.ApplicationLauncherController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:UserAccessManagement.Controllers.ApplicationLauncherController.GetInstalledApplications">
+            <summary>
+            List of Installed Apps
+            </summary>
+            <returns>A list of installed applications along with the version.</returns>
+        </member>
+        <member name="T:UserAccessManagement.Controllers.AuthController">
+            <summary>
+            This controller hold all the API's Related to 
+            user authentication and password related features
+            </summary>
+        </member>
+        <member name="M:UserAccessManagement.Controllers.AuthController.#ctor(SecMan.Interfaces.BL.IPasswordBl,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.AspNetCore.Http.IHttpContextAccessor,SecMan.Interfaces.BL.IAuthBL,MediatR.IMediator)">
+            <summary>
+            </summary>
+            <param name="httpContext"></param>
+            <param name="authBL"></param>
+        </member>
+        <member name="M:UserAccessManagement.Controllers.AuthController.ChangePassword(SecMan.Model.ChangePasswordDto)">
+            <summary>
+            Change Password
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UserAccessManagement.Controllers.AuthController.ForgotPassword(SecMan.Model.ForgetPasswordDto)">
+            <summary>
+            Forget Password
+            </summary>
+            <param name="forgetPasswordDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UserAccessManagement.Controllers.AuthController.ResetPassword(System.String,System.String)">
+            <summary>
+            Reset Password Link Validation
+            </summary>
+            <param name="token" example="abc123def456">Hashed Token with username and password for the given email</param>
+            <param name="email" example="john.doe@acme.com">Email ID of the user</param>
+            <returns></returns>
+        </member>
+        <member name="M:UserAccessManagement.Controllers.AuthController.ResetPassword(SecMan.Model.ResetPasswordDto,System.String)">
+            <summary>
+            Reset Password
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UserAccessManagement.Controllers.AuthController.LoginAsync(SecMan.Model.LoginRequest)">
+            <summary>
+            User Authentication and Token Generation
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UserAccessManagement.Controllers.AuthController.ValidateSessionAsync">
+            <summary>
+            Validate Session
+            </summary>
+            <param name="ssoSessionId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UserAccessManagement.Controllers.AuthController.Logout">
+            <summary>
+            Logout User
+            </summary>
+            <param name="sessionId">The sessionId of the user to log out.</param>
+            <returns>Returns an HTTP 204 (No Content) status code if the logout is successful, or 404 (Not Found) if the session does not exist</returns>
+        </member>
+        <member name="M:UserAccessManagement.Controllers.DashboardController.GetDashBoard">
+            <summary>
+            Dashboard Summary
+            </summary>
+            <returns>An ActionResult containing Dashboard data</returns>
+        </member>
+        <member name="M:UserAccessManagement.Controllers.DevicesController.AddDevice(SecMan.Model.CreateDevice)">
+            <summary>
+            Add device
+            </summary>
+            <param name="createDevice"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UserAccessManagement.Controllers.DevicesController.UpdateDevice(System.UInt64,SecMan.Model.UpdateDevice)">
+            <summary>
+            Updates an existing role by its ID.
+            </summary>
+            <param name="id">The ID of the role to update.</param>
+            <param name="addRoleDto">Data transfer object containing updated role details.</param>
+            <returns>Action result indicating the outcome of the update.</returns>
+        </member>
+        <member name="T:UserAccessManagement.Controllers.RoleController">
+            <summary>
+            Controller for managing roles within the application.
+            </summary>
+        </member>
+        <member name="M:UserAccessManagement.Controllers.RoleController.#ctor(SecMan.Interfaces.BL.IRoleBL,MediatR.IMediator,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Initializes a new instance of the <see cref="T:UserAccessManagement.Controllers.RoleController"/> class.
+            </summary>
+            <param name="roleBAL">Business logic layer for roles.</param>
+            <param name="mediator">Logger for capturing logs.</param>
+        </member>
+        <member name="M:UserAccessManagement.Controllers.RoleController.GetAllRoles">
+            <summary>
+            Retrieves all roles.
+            </summary>
+            <returns>Action result containing the list of roles.</returns>
+        </member>
+        <member name="M:UserAccessManagement.Controllers.RoleController.GetRoleById(System.UInt64)">
+            <summary>
+            Retrieves a role by its ID.
+            </summary>
+            <param name="id">The ID of the role to retrieve.</param>
+            <returns>Action result containing the role details.</returns>
+        </member>
+        <member name="M:UserAccessManagement.Controllers.RoleController.AddRole(SecMan.Model.CreateRole)">
+            <summary>
+            Creates a new role.
+            </summary>
+            <param name="dto">Data transfer object containing role details.</param>
+            <returns>Action result indicating the outcome of the creation.</returns>
+        </member>
+        <member name="M:UserAccessManagement.Controllers.RoleController.UpdateRole(System.UInt64,SecMan.Model.UpdateRole)">
+            <summary>
+            Updates an existing role by its ID.
+            </summary>
+            <param name="id">The ID of the role to update.</param>
+            <param name="addRoleDto">Data transfer object containing updated role details.</param>
+            <returns>Action result indicating the outcome of the update.</returns>
+        </member>
+        <member name="M:UserAccessManagement.Controllers.RoleController.DeleteRole(System.UInt64)">
+            <summary>
+            Deletes a role by its ID.
+            </summary>
+            <param name="id">The ID of the role to delete.</param>
+            <returns>Action result indicating whether the deletion was successful.</returns>
+        </member>
+        <member name="T:UserAccessManagement.Controllers.SecurityPolicyController">
+            <summary>
+            This controller contains API's for Security Policy
+            </summary>
+        </member>
+        <member name="M:UserAccessManagement.Controllers.SecurityPolicyController.#ctor(SecMan.Interfaces.BL.ISystemFeatureBL,MediatR.IMediator)">
+            <summary>
+            This is an constructor for business layer DI
+            </summary>
+            <param name="systemFeatureBL"></param>
+        </member>
+        <member name="M:UserAccessManagement.Controllers.SecurityPolicyController.GetSecurityPoliciesAsync">
+            <summary>
+            Fetch Security Policies
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UserAccessManagement.Controllers.SecurityPolicyController.GetSecurityPolicyByIdAsync(System.UInt64)">
+            <summary>
+            Fetch Security Policy by Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UserAccessManagement.Controllers.SecurityPolicyController.UpdateSystemPolicyByIdAsync(System.UInt64,System.Collections.Generic.List{SecMan.Model.UpdateSystemPolicyData})">
+            <summary>
+            Update Security Policy
+            </summary>
+            <param name="id"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="T:UserAccessManagement.Controllers.SettingsController">
+            <summary>
+            This controller contains API's for system settings
+            </summary>
+        </member>
+        <member name="M:UserAccessManagement.Controllers.SettingsController.#ctor(SecMan.Interfaces.BL.ISystemFeatureBL,MediatR.IMediator)">
+            <summary>
+            This is an constructor for business layer DI
+            </summary>
+            <param name="systemFeatureBL"></param>
+        </member>
+        <member name="M:UserAccessManagement.Controllers.SettingsController.GetSettingsAsync">
+            <summary>
+            Fetch System Settings
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UserAccessManagement.Controllers.SettingsController.GetSettingsByIdAsync(System.UInt64)">
+            <summary>
+            Fetch System Settings by Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UserAccessManagement.Controllers.SettingsController.UpdateSettingsByIdAsync(System.UInt64,System.Collections.Generic.List{SecMan.Model.UpdateSystemPolicyData})">
+            <summary>
+            Update System Setting
+            </summary>
+            <param name="id"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="T:UserAccessManagement.Controllers.SignatureController">
+            <summary>
+            Signature controller
+            </summary>
+            
+        </member>
+        <member name="M:UserAccessManagement.Controllers.SignatureController.#ctor(SecMan.Interfaces.BL.ISignatureBL,MediatR.IMediator)">
+            <summary>
+            Signature Contsructor
+            </summary>
+            <param name="signatureBL"></param>
+            <param name="mediator"></param>
+        </member>
+        <member name="M:UserAccessManagement.Controllers.SignatureController.VerifySignature(SecMan.Model.VerifySignature)">
+            <summary>
+            Verify logged in user password
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UserAccessManagement.Controllers.SignatureController.AuthorizeSignature(SecMan.Model.Authorize)">
+            <summary>
+            Verify authorizer credentials
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="T:UserAccessManagement.Controllers.UsersController">
+            <summary>
+            This Controller contains all the user CRUD API's
+            </summary>
+        </member>
+        <member name="M:UserAccessManagement.Controllers.UsersController.#ctor(SecMan.Interfaces.BL.IUserBL,MediatR.IMediator)">
+            <summary>
+            User Controller Constructor for DI
+            </summary>
+            <param name="userBAL"></param>
+            <param name="mediator"></param>
+        </member>
+        <member name="M:UserAccessManagement.Controllers.UsersController.AddUserAsync(SecMan.Model.CreateUser)">
+            <summary>
+            Create User
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UserAccessManagement.Controllers.UsersController.GetUsersAsync(SecMan.Model.UsersFilterDto)">
+            <summary>
+            List Users
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UserAccessManagement.Controllers.UsersController.GetUserByIdAsync(System.UInt64)">
+            <summary>
+            Enquire user by id
+            </summary>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UserAccessManagement.Controllers.UsersController.UpdateUserAsync(SecMan.Model.UpdateUser,System.UInt64)">
+            <summary>
+            Update user by id
+            </summary>
+            <param name="model"></param>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UserAccessManagement.Controllers.UsersController.DeleteUserAsync(System.UInt64)">
+            <summary>
+            Delete user by id
+            </summary>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UserAccessManagement.Controllers.UsersController.RetireUserAsync(System.UInt64)">
+            <summary>
+            Retire user by id
+            </summary>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UserAccessManagement.Controllers.UsersController.UnlockUserAsync(System.UInt64,System.Boolean)">
+            <summary>
+            Unlock user by id
+            </summary>
+            <param name="id">Unlock the user by Id</param>
+            <param name="changePasswordOnLogin">Change Password on login</param>
+            <returns></returns>
+        </member>
+        <member name="M:UserAccessManagement.Controllers.UsersController.LanguageCodeAsync(System.String)">
+            <summary>
+            Update user preferred language
+            </summary>
+            <param name="languageCode"></param>
+            <returns></returns>
+        </member>
+        <member name="T:UserAccessManagement.Filters.ModelValidationActionFilter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:UserAccessManagement.Filters.ModelValidationActionFilter.OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:UserAccessManagement.Filters.ModelValidationActionFilter.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:UserAccessManagement.Filters.ModelValidationActionFilter.GetParameterSource(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="T:UserAccessManagement.Filters.SecurityActionFilter">
+            <summary>
+            This is an action filter to check specific permissions
+            </summary>
+        </member>
+        <member name="M:UserAccessManagement.Filters.SecurityActionFilter.#ctor(System.String,SecMan.Interfaces.BL.ICurrentUserService)">
+            <summary>
+            Contructor that takes on argument from DI and Another from attribute args
+            </summary>
+            <param name="permission"></param>
+            <param name="currentUser"></param>
+        </member>
+        <member name="M:UserAccessManagement.Filters.SecurityActionFilter.OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)">
+            <summary>
+            This Method will be executed once the contoller method is executed
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:UserAccessManagement.Filters.SecurityActionFilter.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)">
+            <summary>
+            This Method Will be Exected before the controller method is executed
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="T:UserAccessManagement.Middleware.ExceptionHandlingMiddleware">
+            <summary>
+            This is a middleware which will append common model to 500 internal server exceptions
+            </summary>
+        </member>
+        <member name="M:UserAccessManagement.Middleware.ExceptionHandlingMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,MediatR.IMediator)">
+            <summary>
+            This is an Middleware constructor for DI
+            </summary>
+            <param name="next"></param>
+            <param name="env"></param>
+        </member>
+        <member name="M:UserAccessManagement.Middleware.ExceptionHandlingMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext,SecMan.Data.Repository.IUnitOfWork)">
+            <summary>
+            This method will triggered by pipeline when request comes this method
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="T:UserAccessManagement.Swagger.AuthOperationFilter">
+            <summary>
+            This Class is added as auth filter for swagger
+            which add an auth functionality in swagger
+            </summary>
+        </member>
+    </members>
+</doc>

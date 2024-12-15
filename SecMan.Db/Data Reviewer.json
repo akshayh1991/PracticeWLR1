@@ -1,0 +1,349 @@
+{
+	"Vers":1,
+	"Type":"DevDef",
+	"Name":"Data Reviewer",
+	"App":true,
+	"Langs": [
+		{"Code":"fr", "Name":"fr Reviewer"},
+		{"Code":"de", "Name":"de Reviewer"},
+		{"Code":"es", "Name":"es Reviewer"},
+		{"Code":"zh", "Name":"zh Reviewer"}
+	],
+	"DevPolDefs": [
+		{
+			"Vers":1,
+			"Name":"Allow multiple sessions per user",
+			"Desc":"Desc", "Cat":"Cat", "Posn":0, "Units":"Units",
+			"ValType":"Bool", "ValMin": 0, "ValMax": 0, "ValDflt":"false",
+			"Langs": [
+				{"Code":"fr", "Name":"fr Allow multiple sessions per user","Desc":"fr DESC", "Cat":"fr CAT", "Units":"fr UNITS"},
+				{"Code":"de", "Name":"de Allow multiple sessions per user","Desc":"de DESC", "Cat":"de CAT", "Units":"de UNITS"},
+				{"Code":"es", "Name":"es Allow multiple sessions per user","Desc":"es DESC", "Cat":"es CAT", "Units":"es UNITS"},
+				{"Code":"zh", "Name":"zh Allow multiple sessions per user","Desc":"zh DESC", "Cat":"zh CAT", "Units":"zh UNITS"}
+			]
+		}
+	],
+	"DevPermDefs": [
+		{	
+			"Name":"Manage user accounts", "Desc":"Desc", "Cat":"Cat", "Vers":1,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"fr Manage use accounts ","Desc":"fr DESC", "Cat":"fr CAT"},
+				{"Code":"de", "Name":"de Manage use accounts ","Desc":"de DESC", "Cat":"de CAT"},
+				{"Code":"es", "Name":"es Manage use accounts ","Desc":"es DESC", "Cat":"es CAT"},
+				{"Code":"zh", "Name":"zh Manage use accounts ","Desc":"zh DESC", "Cat":"zh CAT"}
+			]
+		},
+		{	
+			"Name":"Manage user sessions", "Desc":"Desc", "Cat":"Cat", "Vers":1,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"fr NAME","Desc":"fr DESC", "Cat":"fr CAT"},
+				{"Code":"de", "Name":"de NAME","Desc":"de DESC", "Cat":"de CAT"},
+				{"Code":"es", "Name":"es NAME","Desc":"es DESC", "Cat":"es CAT"},
+				{"Code":"zh", "Name":"zh NAME","Desc":"zh DESC", "Cat":"zh CAT"}
+			]
+		},
+		{	
+			"Name":"Manage roles", "Desc":"Desc", "Cat":"Cat", "Vers":1,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"fr NAME","Desc":"fr DESC", "Cat":"fr CAT"},
+				{"Code":"de", "Name":"de NAME","Desc":"de DESC", "Cat":"de CAT"},
+				{"Code":"es", "Name":"es NAME","Desc":"es DESC", "Cat":"es CAT"},
+				{"Code":"zh", "Name":"zh NAME","Desc":"zh DESC", "Cat":"zh CAT"}
+			]
+		},
+		{	
+			"Name":"Manage server configuration", "Desc":"Desc", "Cat":"Cat", "Vers":1,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"fr NAME","Desc":"fr DESC", "Cat":"fr CAT"},
+				{"Code":"de", "Name":"de NAME","Desc":"de DESC", "Cat":"de CAT"},
+				{"Code":"es", "Name":"es NAME","Desc":"es DESC", "Cat":"es CAT"},
+				{"Code":"zh", "Name":"zh NAME","Desc":"zh DESC", "Cat":"zh CAT"}
+			]
+		},
+		{	
+			"Name":"Access management", "Desc":"Desc", "Cat":"Cat", "Vers":1,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"fr NAME","Desc":"fr DESC", "Cat":"fr CAT"},
+				{"Code":"de", "Name":"de NAME","Desc":"de DESC", "Cat":"de CAT"},
+				{"Code":"es", "Name":"es NAME","Desc":"es DESC", "Cat":"es CAT"},
+				{"Code":"zh", "Name":"zh NAME","Desc":"zh DESC", "Cat":"zh CAT"}
+			]
+		},
+		{	
+			"Name":"Manage Active Directory", "Desc":"Desc", "Cat":"Cat", "Vers":1,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"fr NAME","Desc":"fr DESC", "Cat":"fr CAT"},
+				{"Code":"de", "Name":"de NAME","Desc":"de DESC", "Cat":"de CAT"},
+				{"Code":"es", "Name":"es NAME","Desc":"es DESC", "Cat":"es CAT"},
+				{"Code":"zh", "Name":"zh NAME","Desc":"zh DESC", "Cat":"zh CAT"}
+			]
+		},
+		{	
+			"Name":"Manage user views", "Desc":"Desc", "Cat":"Cat", "Vers":1,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"fr NAME","Desc":"fr DESC", "Cat":"fr CAT"},
+				{"Code":"de", "Name":"de NAME","Desc":"de DESC", "Cat":"de CAT"},
+				{"Code":"es", "Name":"es NAME","Desc":"es DESC", "Cat":"es CAT"},
+				{"Code":"zh", "Name":"zh NAME","Desc":"zh DESC", "Cat":"zh CAT"}
+			]
+		},
+		{	
+			"Name":"Mange point properties", "Desc":"Desc", "Cat":"Cat", "Vers":1,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"fr NAME","Desc":"fr DESC", "Cat":"fr CAT"},
+				{"Code":"de", "Name":"de NAME","Desc":"de DESC", "Cat":"de CAT"},
+				{"Code":"es", "Name":"es NAME","Desc":"es DESC", "Cat":"es CAT"},
+				{"Code":"zh", "Name":"zh NAME","Desc":"zh DESC", "Cat":"zh CAT"}
+			]
+		},
+		{	
+			"Name":"Manage data sources", "Desc":"Desc", "Cat":"Cat", "Vers":1,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"fr NAME","Desc":"fr DESC", "Cat":"fr CAT"},
+				{"Code":"de", "Name":"de NAME","Desc":"de DESC", "Cat":"de CAT"},
+				{"Code":"es", "Name":"es NAME","Desc":"es DESC", "Cat":"es CAT"},
+				{"Code":"zh", "Name":"zh NAME","Desc":"zh DESC", "Cat":"zh CAT"}
+			]
+		},
+		{	
+			"Name":"Manage database", "Desc":"Desc", "Cat":"Cat", "Vers":1,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"fr NAME","Desc":"fr DESC", "Cat":"fr CAT"},
+				{"Code":"de", "Name":"de NAME","Desc":"de DESC", "Cat":"de CAT"},
+				{"Code":"es", "Name":"es NAME","Desc":"es DESC", "Cat":"es CAT"},
+				{"Code":"zh", "Name":"zh NAME","Desc":"zh DESC", "Cat":"zh CAT"}
+			]
+		},
+		{	
+			"Name":"Manage custom groups", "Desc":"Desc", "Cat":"Cat", "Vers":1,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"fr NAME","Desc":"fr DESC", "Cat":"fr CAT"},
+				{"Code":"de", "Name":"de NAME","Desc":"de DESC", "Cat":"de CAT"},
+				{"Code":"es", "Name":"es NAME","Desc":"es DESC", "Cat":"es CAT"},
+				{"Code":"zh", "Name":"zh NAME","Desc":"zh DESC", "Cat":"zh CAT"}
+			]
+		},
+		{	
+			"Name":"Edit group settings", "Desc":"Desc", "Cat":"Cat", "Vers":1,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"fr NAME","Desc":"fr DESC", "Cat":"fr CAT"},
+				{"Code":"de", "Name":"de NAME","Desc":"de DESC", "Cat":"de CAT"},
+				{"Code":"es", "Name":"es NAME","Desc":"es DESC", "Cat":"es CAT"},
+				{"Code":"zh", "Name":"zh NAME","Desc":"zh DESC", "Cat":"zh CAT"}
+			]
+		},
+		{	
+			"Name":"Manage settings", "Desc":"Desc", "Cat":"Cat", "Vers":1,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"fr NAME","Desc":"fr DESC", "Cat":"fr CAT"},
+				{"Code":"de", "Name":"de NAME","Desc":"de DESC", "Cat":"de CAT"},
+				{"Code":"es", "Name":"es NAME","Desc":"es DESC", "Cat":"es CAT"},
+				{"Code":"zh", "Name":"zh NAME","Desc":"zh DESC", "Cat":"zh CAT"}
+			]
+		},
+		{	
+			"Name":"Annotate", "Desc":"Desc", "Cat":"Cat", "Vers":1,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"fr NAME","Desc":"fr DESC", "Cat":"fr CAT"},
+				{"Code":"de", "Name":"de NAME","Desc":"de DESC", "Cat":"de CAT"},
+				{"Code":"es", "Name":"es NAME","Desc":"es DESC", "Cat":"es CAT"},
+				{"Code":"zh", "Name":"zh NAME","Desc":"zh DESC", "Cat":"zh CAT"}
+			]
+		},
+		{	
+			"Name":"Approve", "Desc":"Desc", "Cat":"Cat", "Vers":1,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"fr NAME","Desc":"fr DESC", "Cat":"fr CAT"},
+				{"Code":"de", "Name":"de NAME","Desc":"de DESC", "Cat":"de CAT"},
+				{"Code":"es", "Name":"es NAME","Desc":"es DESC", "Cat":"es CAT"},
+				{"Code":"zh", "Name":"zh NAME","Desc":"zh DESC", "Cat":"zh CAT"}
+			]
+		},
+		{	
+			"Name":"Review", "Desc":"Desc", "Cat":"Cat", "Vers":1,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"fr NAME","Desc":"fr DESC", "Cat":"fr CAT"},
+				{"Code":"de", "Name":"de NAME","Desc":"de DESC", "Cat":"de CAT"},
+				{"Code":"es", "Name":"es NAME","Desc":"es DESC", "Cat":"es CAT"},
+				{"Code":"zh", "Name":"zh NAME","Desc":"zh DESC", "Cat":"zh CAT"}
+			]
+		},
+		{	
+			"Name":"Release", "Desc":"Desc", "Cat":"Cat", "Vers":1,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"fr NAME","Desc":"fr DESC", "Cat":"fr CAT"},
+				{"Code":"de", "Name":"de NAME","Desc":"de DESC", "Cat":"de CAT"},
+				{"Code":"es", "Name":"es NAME","Desc":"es DESC", "Cat":"es CAT"},
+				{"Code":"zh", "Name":"zh NAME","Desc":"zh DESC", "Cat":"zh CAT"}
+			]
+		},
+		{	
+			"Name":"Fail", "Desc":"Desc", "Cat":"Cat", "Vers":1,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"fr NAME","Desc":"fr DESC", "Cat":"fr CAT"},
+				{"Code":"de", "Name":"de NAME","Desc":"de DESC", "Cat":"de CAT"},
+				{"Code":"es", "Name":"es NAME","Desc":"es DESC", "Cat":"es CAT"},
+				{"Code":"zh", "Name":"zh NAME","Desc":"zh DESC", "Cat":"zh CAT"}
+			]
+		},
+		{	
+			"Name":"Acknowledge notifications", "Desc":"Desc", "Cat":"Cat", "Vers":1,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"fr NAME","Desc":"fr DESC", "Cat":"fr CAT"},
+				{"Code":"de", "Name":"de NAME","Desc":"de DESC", "Cat":"de CAT"},
+				{"Code":"es", "Name":"es NAME","Desc":"es DESC", "Cat":"es CAT"},
+				{"Code":"zh", "Name":"zh NAME","Desc":"zh DESC", "Cat":"zh CAT"}
+			]
+		},
+		{	
+			"Name":"Access history / download UHH files", "Desc":"Desc", "Cat":"Cat", "Vers":1,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"fr NAME","Desc":"fr DESC", "Cat":"fr CAT"},
+				{"Code":"de", "Name":"de NAME","Desc":"de DESC", "Cat":"de CAT"},
+				{"Code":"es", "Name":"es NAME","Desc":"es DESC", "Cat":"es CAT"},
+				{"Code":"zh", "Name":"zh NAME","Desc":"zh DESC", "Cat":"zh CAT"}
+			]
+		},
+		{	
+			"Name":"View database details", "Desc":"Desc", "Cat":"Cat", "Vers":1,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"fr NAME","Desc":"fr DESC", "Cat":"fr CAT"},
+				{"Code":"de", "Name":"de NAME","Desc":"de DESC", "Cat":"de CAT"},
+				{"Code":"es", "Name":"es NAME","Desc":"es DESC", "Cat":"es CAT"},
+				{"Code":"zh", "Name":"zh NAME","Desc":"zh DESC", "Cat":"zh CAT"}
+			]
+		},
+		{	
+			"Name":"Export to CSV", "Desc":"Desc", "Cat":"Cat", "Vers":1,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"fr NAME","Desc":"fr DESC", "Cat":"fr CAT"},
+				{"Code":"de", "Name":"de NAME","Desc":"de DESC", "Cat":"de CAT"},
+				{"Code":"es", "Name":"es NAME","Desc":"es DESC", "Cat":"es CAT"},
+				{"Code":"zh", "Name":"zh NAME","Desc":"zh DESC", "Cat":"zh CAT"}
+			]
+		},
+		{	
+			"Name":"Print", "Desc":"Desc", "Cat":"Cat", "Vers":1,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"fr NAME","Desc":"fr DESC", "Cat":"fr CAT"},
+				{"Code":"de", "Name":"de NAME","Desc":"de DESC", "Cat":"de CAT"},
+				{"Code":"es", "Name":"es NAME","Desc":"es DESC", "Cat":"es CAT"},
+				{"Code":"zh", "Name":"zh NAME","Desc":"zh DESC", "Cat":"zh CAT"}
+			]
+		},
+		{	
+			"Name":"Can sign", "Desc":"Desc", "Cat":"Cat", "Vers":1,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"fr NAME","Desc":"fr DESC", "Cat":"fr CAT"},
+				{"Code":"de", "Name":"de NAME","Desc":"de DESC", "Cat":"de CAT"},
+				{"Code":"es", "Name":"es NAME","Desc":"es DESC", "Cat":"es CAT"},
+				{"Code":"zh", "Name":"zh NAME","Desc":"zh DESC", "Cat":"zh CAT"}
+			]
+		},
+		{	
+			"Name":"Can authorize", "Desc":"Desc", "Cat":"Cat", "Vers":1,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"fr NAME","Desc":"fr DESC", "Cat":"fr CAT"},
+				{"Code":"de", "Name":"de NAME","Desc":"de DESC", "Cat":"de CAT"},
+				{"Code":"es", "Name":"es NAME","Desc":"es DESC", "Cat":"es CAT"},
+				{"Code":"zh", "Name":"zh NAME","Desc":"zh DESC", "Cat":"zh CAT"}
+			]
+		},
+		{	
+			"Name":"Enable/Disable custom groups", "Desc":"Desc", "Cat":"Cat", "Vers":1,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"fr NAME","Desc":"fr DESC", "Cat":"fr CAT"},
+				{"Code":"de", "Name":"de NAME","Desc":"de DESC", "Cat":"de CAT"},
+				{"Code":"es", "Name":"es NAME","Desc":"es DESC", "Cat":"es CAT"},
+				{"Code":"zh", "Name":"zh NAME","Desc":"zh DESC", "Cat":"zh CAT"}
+			]
+		},
+		{	
+			"Name":"Manage print details", "Desc":"Desc", "Cat":"Cat", "Vers":1,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"fr NAME","Desc":"fr DESC", "Cat":"fr CAT"},
+				{"Code":"de", "Name":"de NAME","Desc":"de DESC", "Cat":"de CAT"},
+				{"Code":"es", "Name":"es NAME","Desc":"es DESC", "Cat":"es CAT"},
+				{"Code":"zh", "Name":"zh NAME","Desc":"zh DESC", "Cat":"zh CAT"}
+			]
+		},
+		{	
+			"Name":"View and print event log", "Desc":"Desc", "Cat":"Cat", "Vers":1,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"fr NAME","Desc":"fr DESC", "Cat":"fr CAT"},
+				{"Code":"de", "Name":"de NAME","Desc":"de DESC", "Cat":"de CAT"},
+				{"Code":"es", "Name":"es NAME","Desc":"es DESC", "Cat":"es CAT"},
+				{"Code":"zh", "Name":"zh NAME","Desc":"zh DESC", "Cat":"zh CAT"}
+			]
+		},
+		{	
+			"Name":"View and print channel details", "Desc":"Desc", "Cat":"Cat", "Vers":1,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"fr NAME","Desc":"fr DESC", "Cat":"fr CAT"},
+				{"Code":"de", "Name":"de NAME","Desc":"de DESC", "Cat":"de CAT"},
+				{"Code":"es", "Name":"es NAME","Desc":"es DESC", "Cat":"es CAT"},
+				{"Code":"zh", "Name":"zh NAME","Desc":"zh DESC", "Cat":"zh CAT"}
+			]
+		},
+		{	
+			"Name":"Manage scheduled reports", "Desc":"Desc", "Cat":"Cat", "Vers":1,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"fr NAME","Desc":"fr DESC", "Cat":"fr CAT"},
+				{"Code":"de", "Name":"de NAME","Desc":"de DESC", "Cat":"de CAT"},
+				{"Code":"es", "Name":"es NAME","Desc":"es DESC", "Cat":"es CAT"},
+				{"Code":"zh", "Name":"zh NAME","Desc":"zh DESC", "Cat":"zh CAT"}
+			]
+		},
+		{	
+			"Name":"Manage Syslog", "Desc":"Desc", "Cat":"Cat", "Vers":1,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"fr NAME","Desc":"fr DESC", "Cat":"fr CAT"},
+				{"Code":"de", "Name":"de NAME","Desc":"de DESC", "Cat":"de CAT"},
+				{"Code":"es", "Name":"es NAME","Desc":"es DESC", "Cat":"es CAT"},
+				{"Code":"zh", "Name":"zh NAME","Desc":"zh DESC", "Cat":"zh CAT"}
+			]
+		},
+		{	
+			"Name":"Manage OPC UA", "Desc":"Desc", "Cat":"Cat", "Vers":1,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"fr NAME","Desc":"fr DESC", "Cat":"fr CAT"},
+				{"Code":"de", "Name":"de NAME","Desc":"de DESC", "Cat":"de CAT"},
+				{"Code":"es", "Name":"es NAME","Desc":"es DESC", "Cat":"es CAT"},
+				{"Code":"zh", "Name":"zh NAME","Desc":"zh DESC", "Cat":"zh CAT"}
+			]
+		}
+	]
+}
+

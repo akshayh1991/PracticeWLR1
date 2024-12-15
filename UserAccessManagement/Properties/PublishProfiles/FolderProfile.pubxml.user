@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\WatlowPublish</_PublishTargetUrl>
+    <History>True|2024-11-25T13:49:41.7567827Z||;True|2024-11-25T19:03:28.6566623+05:30||;True|2024-11-25T14:12:46.3546662+05:30||;True|2024-11-25T13:19:43.8559106+05:30||;True|2024-11-25T13:19:01.8176107+05:30||;True|2024-11-25T12:41:05.5920110+05:30||;True|2024-10-04T10:26:57.2289428+05:30||;True|2024-09-09T16:44:56.5638718+05:30||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

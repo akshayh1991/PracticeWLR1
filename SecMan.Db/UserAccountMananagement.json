@@ -1,0 +1,123 @@
+{
+	"Type":"SysFeat",
+	"Name":"User Account Management",
+	"Common":false,
+	"Vers":1,
+	"Langs": [
+		{"Code":"fr", "Name":"fr User Account Management"},
+		{"Code":"de", "Name":"de User Account Management"},
+		{"Code":"es", "Name":"es User Account Management"},
+		{"Code":"zh", "Name":"zh User Account Management"}
+	],
+	"SysFeatProps": [
+		{
+			"Name":"Session Timeout",
+			"Vers":1,
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Units":"Units",
+			"ValType":"Int",
+			"ValMin": 0,
+			"ValMax": 9999,
+			"Val":"0",
+			"Langs": [
+				{"Code":"fr", "Name":"XXX","Desc":"Desc", "Cat":"Cat", "Units":"Units"},
+				{"Code":"de", "Name":"XXX","Desc":"Desc", "Cat":"Cat", "Units":"Units"},
+				{"Code":"es", "Name":"XXX","Desc":"Desc", "Cat":"Cat", "Units":"Units"},
+				{"Code":"zh", "Name":"XXX","Desc":"Desc", "Cat":"Cat", "Units":"Units"}
+			]
+		},
+		{
+			"Name":"Max Login Attempts",
+			"Vers":1,
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Units":"Units",
+			"ValType":"Int",
+			"ValMin": 0,
+			"ValMax": 3,
+			"Val":"0",
+			"Langs": [
+				{"Code":"fr", "Name":"XXX","Desc":"Desc", "Cat":"Cat", "Units":"Units"},
+				{"Code":"de", "Name":"XXX","Desc":"Desc", "Cat":"Cat", "Units":"Units"},
+				{"Code":"es", "Name":"XXX","Desc":"Desc", "Cat":"Cat", "Units":"Units"},
+				{"Code":"zh", "Name":"XXX","Desc":"Desc", "Cat":"Cat", "Units":"Units"}
+			]
+		},
+		{
+			"Name":"Lock Duration",
+			"Vers":1,
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Units":"Units",
+			"ValType":"Int",
+			"ValMin": 0,
+			"ValMax": 9999,
+			"Val":"0",
+			"Langs": [
+				{"Code":"fr", "Name":"XXX","Desc":"Desc", "Cat":"Cat", "Units":"Units"},
+				{"Code":"de", "Name":"XXX","Desc":"Desc", "Cat":"Cat", "Units":"Units"},
+				{"Code":"es", "Name":"XXX","Desc":"Desc", "Cat":"Cat", "Units":"Units"},
+				{"Code":"zh", "Name":"XXX","Desc":"Desc", "Cat":"Cat", "Units":"Units"}
+			]
+		},
+		{
+			"Name":"Exclude Expiry",
+			"Vers":1,
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Units":"Units",
+			"ValType":"Bool",
+			"ValMin": 0,
+			"ValMax": 0,
+			"Val":"false",
+			"Langs": [
+				{"Code":"fr", "Name":"XXX","Desc":"Desc", "Cat":"Cat", "Units":"Units"},
+				{"Code":"de", "Name":"XXX","Desc":"Desc", "Cat":"Cat", "Units":"Units"},
+				{"Code":"es", "Name":"XXX","Desc":"Desc", "Cat":"Cat", "Units":"Units"},
+				{"Code":"zh", "Name":"XXX","Desc":"Desc", "Cat":"Cat", "Units":"Units"}
+			]
+		},
+		{
+			"Name":"Retirement",
+			"Vers":1,
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Units":"Units",
+			"ValType":"Bool",
+			"ValMin": 0,
+			"ValMax": 0,
+			"Val":"true",
+			"Langs": [
+				{"Code":"fr", "Name":"XXX","Desc":"Desc", "Cat":"Cat", "Units":"Units"},
+				{"Code":"de", "Name":"XXX","Desc":"Desc", "Cat":"Cat", "Units":"Units"},
+				{"Code":"es", "Name":"XXX","Desc":"Desc", "Cat":"Cat", "Units":"Units"},
+				{"Code":"zh", "Name":"XXX","Desc":"Desc", "Cat":"Cat", "Units":"Units"}
+			]
+		},
+		{
+			"Name":"Dashboard Data",
+			"Vers":1,
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Units":"Units",
+			"ValType":"Int",
+			"ValMin": 0,
+			"ValMax": 9999,
+			"Val":"10",
+			"Langs": [
+				{"Code":"fr", "Name":"XXX","Desc":"Desc", "Cat":"Cat", "Units":"Units"},
+				{"Code":"de", "Name":"XXX","Desc":"Desc", "Cat":"Cat", "Units":"Units"},
+				{"Code":"es", "Name":"XXX","Desc":"Desc", "Cat":"Cat", "Units":"Units"},
+				{"Code":"zh", "Name":"XXX","Desc":"Desc", "Cat":"Cat", "Units":"Units"}
+			]
+		}
+	]
+}
+

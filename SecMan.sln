@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecMan.Data", "SecMan.Data\SecMan.Data.csproj", "{650B721F-C0EC-4427-B597-A796B3669FEB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecMan.Data.Test", "SecMan.Data.Test\SecMan.Data.Test.csproj", "{B33352C9-A864-4882-9DB4-22F549F7778A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecMan.Model", "SecMan.Model\SecMan.Model.csproj", "{57FDB1DE-D084-4149-B25D-7A1D7AFB050C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecMan.Interfaces", "SecMan.Interfaces\SecMan.Interfaces.csproj", "{55CDD7F8-C8E8-4EEC-98AD-A968417777F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecMan.BL", "SecMan.BL\SecMan.BL.csproj", "{82AB76E8-34BC-496B-8948-6F694B177D8F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserAccessManagement", "UserAccessManagement\UserAccessManagement.csproj", "{41373484-B7E4-475E-923E-DBDB578B45BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecMan.UnitTests", "SecMan.UnitTests\SecMan.UnitTests.csproj", "{7BCA4BCE-C834-4FA5-A910-9040082AB1A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{650B721F-C0EC-4427-B597-A796B3669FEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{650B721F-C0EC-4427-B597-A796B3669FEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{650B721F-C0EC-4427-B597-A796B3669FEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{650B721F-C0EC-4427-B597-A796B3669FEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B33352C9-A864-4882-9DB4-22F549F7778A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B33352C9-A864-4882-9DB4-22F549F7778A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B33352C9-A864-4882-9DB4-22F549F7778A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B33352C9-A864-4882-9DB4-22F549F7778A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57FDB1DE-D084-4149-B25D-7A1D7AFB050C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57FDB1DE-D084-4149-B25D-7A1D7AFB050C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57FDB1DE-D084-4149-B25D-7A1D7AFB050C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57FDB1DE-D084-4149-B25D-7A1D7AFB050C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55CDD7F8-C8E8-4EEC-98AD-A968417777F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55CDD7F8-C8E8-4EEC-98AD-A968417777F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55CDD7F8-C8E8-4EEC-98AD-A968417777F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55CDD7F8-C8E8-4EEC-98AD-A968417777F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82AB76E8-34BC-496B-8948-6F694B177D8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82AB76E8-34BC-496B-8948-6F694B177D8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82AB76E8-34BC-496B-8948-6F694B177D8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82AB76E8-34BC-496B-8948-6F694B177D8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41373484-B7E4-475E-923E-DBDB578B45BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41373484-B7E4-475E-923E-DBDB578B45BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41373484-B7E4-475E-923E-DBDB578B45BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41373484-B7E4-475E-923E-DBDB578B45BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BCA4BCE-C834-4FA5-A910-9040082AB1A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BCA4BCE-C834-4FA5-A910-9040082AB1A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BCA4BCE-C834-4FA5-A910-9040082AB1A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BCA4BCE-C834-4FA5-A910-9040082AB1A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6CFC8A5-9B61-4511-BD03-1AC8D1180B2A}
+	EndGlobalSection
+EndGlobal

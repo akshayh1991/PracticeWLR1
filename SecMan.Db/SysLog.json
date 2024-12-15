@@ -1,0 +1,89 @@
+{
+	"Type":"SysFeat",
+	"Name":"SysLog",
+	"Description":"Testing Description",
+	"Common":true,
+	"TestConnection":true,
+	"Vers":1,
+	"Langs": [
+		{"Code":"fr", "Name":"fr SysLog"},
+		{"Code":"de", "Name":"de SysLog"},
+		{"Code":"es", "Name":"es SysLog"},
+		{"Code":"zh", "Name":"zh SysLog"}
+	],
+	"SysFeatProps": [
+		{
+			"Name":"Enabled",
+			"Vers":0,
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Units":"Units",
+			"ValType":"Bool",
+			"ValMin": 0,
+			"ValMax": 0,
+			"ValDflt":"false",
+			"Langs": [
+				{"Code":"fr", "Name":"Enabled","Desc":"Desc", "Cat":"Cat", "Units":"Units"},
+				{"Code":"de", "Name":"Enabled","Desc":"Desc", "Cat":"Cat", "Units":"Units"},
+				{"Code":"es", "Name":"Enabled","Desc":"Desc", "Cat":"Cat", "Units":"Units"},
+				{"Code":"zh", "Name":"Enabled","Desc":"Desc", "Cat":"Cat", "Units":"Units"}
+			]
+		},
+		{
+			"Name":"Addr",
+			"Vers":0,
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Units":"Units",
+			"ValType":"IP",
+			"ValMin": 0,
+			"ValMax": 0,
+			"ValDflt":"000.000.000.000",
+			"Langs": [
+				{"Code":"fr", "Name":"Server Address","Desc":"Desc", "Cat":"Cat", "Units":"Units"},
+				{"Code":"de", "Name":"Server Address","Desc":"Desc", "Cat":"Cat", "Units":"Units"},
+				{"Code":"es", "Name":"Server Address","Desc":"Desc", "Cat":"Cat", "Units":"Units"},
+				{"Code":"zh", "Name":"Server Address","Desc":"Desc", "Cat":"Cat", "Units":"Units"}
+			]
+		},
+		{
+			"Name":"Port",
+			"Vers":0,
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Units":"Units",
+			"ValType":"Int",
+			"ValMin": 0,
+			"ValMax": 9999,
+			"ValDflt":"514",
+			"Langs": [
+				{"Code":"fr", "Name":"Server Port","Desc":"Desc", "Cat":"Cat", "Units":"Units"},
+				{"Code":"de", "Name":"Server Port","Desc":"Desc", "Cat":"Cat", "Units":"Units"},
+				{"Code":"es", "Name":"Server Port","Desc":"Desc", "Cat":"Cat", "Units":"Units"},
+				{"Code":"zh", "Name":"Server Port","Desc":"Desc", "Cat":"Cat", "Units":"Units"}
+			]
+		},
+		{
+			"Name":"TLS",
+			"Vers":0,
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Units":"Units",
+			"ValType":"Bool",
+			"ValMin": 0,
+			"ValMax": 0,
+			"ValDflt":"false",
+			"Langs": [
+				{"Code":"fr", "Name":"TLS","Desc":"Desc", "Cat":"Cat", "Units":"Units"},
+				{"Code":"de", "Name":"TLS","Desc":"Desc", "Cat":"Cat", "Units":"Units"},
+				{"Code":"es", "Name":"TLS","Desc":"Desc", "Cat":"Cat", "Units":"Units"},
+				{"Code":"zh", "Name":"TLS","Desc":"Desc", "Cat":"Cat", "Units":"Units"}
+			]
+		}
+	]
+}
+

@@ -1,0 +1,990 @@
+{
+	"Type":"DevDef",
+	"Name":"EPM",
+	"Vers":1,
+	"App":false,
+	"Langs": [
+		{"Code":"fr", "Name":"fr EPM"},
+		{"Code":"de", "Name":"de EPM"},
+		{"Code":"es", "Name":"es EPM"},
+		{"Code":"zh", "Name":"zh EPM"}
+	],
+	"DevPolDefs": [
+		{
+			"Name":"RECORD LOGINS",
+			"Vers":0,
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Units":"Units",
+			"ValType":"Bool",
+			"ValMin": 0,
+			"ValMax": 0,
+			"ValDflt":"false",
+			"Langs": [
+				{"Code":"fr", "Name":"RECORD LOGINS","Desc":"Desc", "Cat":"Cat", "Units":"Units"},
+				{"Code":"de", "Name":"RECORD LOGINS","Desc":"Desc", "Cat":"Cat", "Units":"Units"},
+				{"Code":"es", "Name":"RECORD LOGINS","Desc":"Desc", "Cat":"Cat", "Units":"Units"},
+				{"Code":"zh", "Name":"RECORD LOGINS","Desc":"Desc", "Cat":"Cat", "Units":"Units"}
+			]
+		},
+		{
+			"Name":"ENABLE AUDIT TRAIL",
+			"Vers":0,
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Units":"Units",
+			"ValType":"Bool",
+			"ValMin": 0,
+			"ValMax": 0,
+			"ValDflt":"false",
+			"Langs": [
+				{"Code":"fr", "Name":"ENABLE AUDIT TRAIL","Desc":"Desc", "Cat":"Cat", "Units":"Units"},
+				{"Code":"de", "Name":"ENABLE AUDIT TRAIL","Desc":"Desc", "Cat":"Cat", "Units":"Units"},
+				{"Code":"es", "Name":"ENABLE AUDIT TRAIL","Desc":"Desc", "Cat":"Cat", "Units":"Units"},
+				{"Code":"zh", "Name":"ENABLE AUDIT TRAIL","Desc":"Desc", "Cat":"Cat", "Units":"Units"}
+			]
+		}
+	],
+	"DevPermDefs": [
+		{	
+			"Name":"CAN_ACCESS_WEBSERVER",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_ACCESS_WEBSERVER","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_ACCESS_WEBSERVER","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_ACCESS_WEBSERVER","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_ACCESS_WEBSERVER","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_ACKNOWLEDGE_ALARMS",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_ACKNOWLEDGE_ALARMS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_ACKNOWLEDGE_ALARMS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_ACKNOWLEDGE_ALARMS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_ACKNOWLEDGE_ALARMS","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_SUPPRESS_ALARMS",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_SUPPRESS_ALARMS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_SUPPRESS_ALARMS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_SUPPRESS_ALARMS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_SUPPRESS_ALARMS","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_SHELVE_ALARMS",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_SHELVE_ALARMS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_SHELVE_ALARMS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_SHELVE_ALARMS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_SHELVE_ALARMS","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_ACTION_DEMAND_WRITES",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_ACTION_DEMAND_WRITES","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_ACTION_DEMAND_WRITES","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_ACTION_DEMAND_WRITES","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_ACTION_DEMAND_WRITES","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_ADJUST_IO",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_ADJUST_IO","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_ADJUST_IO","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_ADJUST_IO","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_ADJUST_IO","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_ARCHIVE",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_ARCHIVE","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_ARCHIVE","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_ARCHIVE","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_ARCHIVE","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_NOTE",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_NOTE","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_NOTE","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_NOTE","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_NOTE","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_ANNOTATE_NOTE",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_ANNOTATE_NOTE","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_ANNOTATE_NOTE","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_ANNOTATE_NOTE","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_ANNOTATE_NOTE","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_ANNOTATE_APPROVE",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_ANNOTATE_APPROVE","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_ANNOTATE_APPROVE","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_ANNOTATE_APPROVE","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_ANNOTATE_APPROVE","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_ANNOTATE_FAIL",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_ANNOTATE_FAIL","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_ANNOTATE_FAIL","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_ANNOTATE_FAIL","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_ANNOTATE_FAIL","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_ANNOTATE_RELEASE",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_ANNOTATE_RELEASE","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_ANNOTATE_RELEASE","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_ANNOTATE_RELEASE","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_ANNOTATE_RELEASE","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_ANNOTATE_REVIEW",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_ANNOTATE_REVIEW","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_ANNOTATE_REVIEW","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_ANNOTATE_REVIEW","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_ANNOTATE_REVIEW","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_AUTHORIZE",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_AUTHORIZE","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_AUTHORIZE","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_AUTHORIZE","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_AUTHORIZE","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_BATCH_CONTROL",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_BATCH_CONTROL","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_BATCH_CONTROL","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_BATCH_CONTROL","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_BATCH_CONTROL","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_BATCH_CONTROL_START",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_BATCH_CONTROL_START","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_BATCH_CONTROL_START","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_BATCH_CONTROL_START","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_BATCH_CONTROL_START","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_BATCH_CONTROL_STOP",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_BATCH_CONTROL_STOP","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_BATCH_CONTROL_STOP","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_BATCH_CONTROL_STOP","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_BATCH_CONTROL_STOP","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_BATCH_CONTROL_PAUSE",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_BATCH_CONTROL_PAUSE","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_BATCH_CONTROL_PAUSE","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_BATCH_CONTROL_PAUSE","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_BATCH_CONTROL_PAUSE","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_BATCH_CONTROL_RESUME",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_BATCH_CONTROL_RESUME","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_BATCH_CONTROL_RESUME","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_BATCH_CONTROL_RESUME","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_BATCH_CONTROL_RESUME","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_CONFIGURE",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_CONFIGURE","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_CONFIGURE","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_CONFIGURE","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_CONFIGURE","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_CONFIGURE_OUTPUT_DEFAULTS",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_CONFIGURE_OUTPUT_DEFAULTS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_CONFIGURE_OUTPUT_DEFAULTS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_CONFIGURE_OUTPUT_DEFAULTS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_CONFIGURE_OUTPUT_DEFAULTS","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_EDIT_ALARM_SETPOINTS",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_EDIT_ALARM_SETPOINTS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_EDIT_ALARM_SETPOINTS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_EDIT_ALARM_SETPOINTS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_EDIT_ALARM_SETPOINTS","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_EDIT_MATH_CONSTANTS",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_EDIT_MATH_CONSTANTS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_EDIT_MATH_CONSTANTS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_EDIT_MATH_CONSTANTS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_EDIT_MATH_CONSTANTS","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_EDIT_OWN_PASSWORD",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_EDIT_OWN_PASSWORD","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_EDIT_OWN_PASSWORD","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_EDIT_OWN_PASSWORD","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_EDIT_OWN_PASSWORD","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_ENTER_BATCH_DATA",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_ENTER_BATCH_DATA","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_ENTER_BATCH_DATA","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_ENTER_BATCH_DATA","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_ENTER_BATCH_DATA","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_INVOKE_LEVEL1_EVENTS",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_INVOKE_LEVEL1_EVENTS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_INVOKE_LEVEL1_EVENTS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_INVOKE_LEVEL1_EVENTS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_INVOKE_LEVEL1_EVENTS","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_INVOKE_LEVEL2_EVENTS",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_INVOKE_LEVEL2_EVENTS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_INVOKE_LEVEL2_EVENTS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_INVOKE_LEVEL2_EVENTS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_INVOKE_LEVEL2_EVENTS","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_INVOKE_LEVEL3_EVENTS",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_INVOKE_LEVEL3_EVENTS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_INVOKE_LEVEL3_EVENTS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_INVOKE_LEVEL3_EVENTS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_INVOKE_LEVEL3_EVENTS","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_PASTE_DELETE_FILES",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_PASTE_DELETE_FILES","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_PASTE_DELETE_FILES","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_PASTE_DELETE_FILES","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_PASTE_DELETE_FILES","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_PRESET_COUNTERS",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_PRESET_COUNTERS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_PRESET_COUNTERS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_PRESET_COUNTERS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_PRESET_COUNTERS","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_RESET_COUNTERS",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_RESET_COUNTERS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_RESET_COUNTERS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_RESET_COUNTERS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_RESET_COUNTERS","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_PRESET_TOTALISERS",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_PRESET_TOTALISERS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_PRESET_TOTALISERS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_PRESET_TOTALISERS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_PRESET_TOTALISERS","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_RESET_MATHS",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_RESET_MATHS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_RESET_MATHS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_RESET_MATHS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_RESET_MATHS","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_SAVE_RESTORE",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_SAVE_RESTORE","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_SAVE_RESTORE","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_SAVE_RESTORE","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_SAVE_RESTORE","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_SET_CLOCK",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_SET_CLOCK","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_SET_CLOCK","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_SET_CLOCK","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_SET_CLOCK","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_SIGN",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_SIGN","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_SIGN","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_SIGN","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_SIGN","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_RESET_TIMERS",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_RESET_TIMERS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_RESET_TIMERS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_RESET_TIMERS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_RESET_TIMERS","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_START_TIMERS",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_START_TIMERS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_START_TIMERS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_START_TIMERS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_START_TIMERS","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_UPGRADE",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_UPGRADE","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_UPGRADE","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_UPGRADE","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_UPGRADE","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_ACCESS_PAGE_BATCH_SUMMARY",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_ACCESS_PAGE_BATCH_SUMMARY","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_ACCESS_PAGE_BATCH_SUMMARY","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_ACCESS_PAGE_BATCH_SUMMARY","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_ACCESS_PAGE_BATCH_SUMMARY","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_ACCESS_PAGE_EMAIL_CONFIGURATION",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_ACCESS_PAGE_EMAIL_CONFIGURATION","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_ACCESS_PAGE_EMAIL_CONFIGURATION","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_ACCESS_PAGE_EMAIL_CONFIGURATION","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_ACCESS_PAGE_EMAIL_CONFIGURATION","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_ACCESS_PAGE_GROUPS",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_ACCESS_PAGE_GROUPS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_ACCESS_PAGE_GROUPS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_ACCESS_PAGE_GROUPS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_ACCESS_PAGE_GROUPS","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_ACCESS_PAGE_BATCH_HISTORY",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_ACCESS_PAGE_BATCH_HISTORY","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_ACCESS_PAGE_BATCH_HISTORY","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_ACCESS_PAGE_BATCH_HISTORY","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_ACCESS_PAGE_BATCH_HISTORY","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_ACCESS_PAGE_GROUP",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_ACCESS_PAGE_GROUP","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_ACCESS_PAGE_GROUP","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_ACCESS_PAGE_GROUP","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_ACCESS_PAGE_GROUP","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_ACCESS_PAGE_MATH_CHANNELS",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_ACCESS_PAGE_MATH_CHANNELS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_ACCESS_PAGE_MATH_CHANNELS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_ACCESS_PAGE_MATH_CHANNELS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_ACCESS_PAGE_MATH_CHANNELS","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_ACCESS_PAGE_IO_CHANNELS",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_ACCESS_PAGE_IO_CHANNELS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_ACCESS_PAGE_IO_CHANNELS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_ACCESS_PAGE_IO_CHANNELS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_ACCESS_PAGE_IO_CHANNELS","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_ACCESS_PAGE_TEST_CHANNELS",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_ACCESS_PAGE_TEST_CHANNELS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_ACCESS_PAGE_TEST_CHANNELS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_ACCESS_PAGE_TEST_CHANNELS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_ACCESS_PAGE_TEST_CHANNELS","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_ACCESS_PAGE_GROUP_MESSAGES",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_ACCESS_PAGE_GROUP_MESSAGES","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_ACCESS_PAGE_GROUP_MESSAGES","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_ACCESS_PAGE_GROUP_MESSAGES","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_ACCESS_PAGE_GROUP_MESSAGES","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_ACCESS_PAGE_COUNTER_CHANNELS",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_ACCESS_PAGE_COUNTER_CHANNELS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_ACCESS_PAGE_COUNTER_CHANNELS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_ACCESS_PAGE_COUNTER_CHANNELS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_ACCESS_PAGE_COUNTER_CHANNELS","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_ACCESS_PAGE_TOTALISER_CHANNELS",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_ACCESS_PAGE_TOTALISER_CHANNELS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_ACCESS_PAGE_TOTALISER_CHANNELS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_ACCESS_PAGE_TOTALISER_CHANNELS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_ACCESS_PAGE_TOTALISER_CHANNELS","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_ACCESS_PAGE_TIMER_CHANNELS",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_ACCESS_PAGE_TIMER_CHANNELS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_ACCESS_PAGE_TIMER_CHANNELS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_ACCESS_PAGE_TIMER_CHANNELS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_ACCESS_PAGE_TIMER_CHANNELS","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_ACCESS_PAGE_SECURITY",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_ACCESS_PAGE_SECURITY","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_ACCESS_PAGE_SECURITY","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_ACCESS_PAGE_SECURITY","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_ACCESS_PAGE_SECURITY","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_ACCESS_PAGE_GROUP_MESSAGES",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_ACCESS_PAGE_GROUP_MESSAGES","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_ACCESS_PAGE_GROUP_MESSAGES","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_ACCESS_PAGE_GROUP_MESSAGES","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_ACCESS_PAGE_GROUP_MESSAGES","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_ACCESS_PAGE_JOBS",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_ACCESS_PAGE_JOBS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_ACCESS_PAGE_JOBS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_ACCESS_PAGE_JOBS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_ACCESS_PAGE_JOBS","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_ACCESS_PAGE_MESSAGE_TEMPLATES",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_ACCESS_PAGE_MESSAGE_TEMPLATES","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_ACCESS_PAGE_MESSAGE_TEMPLATES","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_ACCESS_PAGE_MESSAGE_TEMPLATES","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_ACCESS_PAGE_MESSAGE_TEMPLATES","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_ACCESS_PAGE_ALARM_SUMMARY",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_ACCESS_PAGE_ALARM_SUMMARY","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_ACCESS_PAGE_ALARM_SUMMARY","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_ACCESS_PAGE_ALARM_SUMMARY","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_ACCESS_PAGE_ALARM_SUMMARY","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_TIMER_HOLD",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_TIMER_HOLD","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_TIMER_HOLD","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_TIMER_HOLD","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_TIMER_HOLD","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_TOTALISER_HOLD",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_TOTALISER_HOLD","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_TOTALISER_HOLD","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_TOTALISER_HOLD","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_TOTALISER_HOLD","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_COUNTER_HOLD",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_COUNTER_HOLD","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_COUNTER_HOLD","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_COUNTER_HOLD","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_COUNTER_HOLD","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_EDIT_ALL_PASSWORDS",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_EDIT_ALL_PASSWORDS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_EDIT_ALL_PASSWORDS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_EDIT_ALL_PASSWORDS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_EDIT_ALL_PASSWORDS","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_MASK_ALARMS ",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_MASK_ALARMS ","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_MASK_ALARMS ","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_MASK_ALARMS ","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_MASK_ALARMS ","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_ACCESS_PAGE_ALARM_HISTORY",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_ACCESS_PAGE_ALARM_HISTORY","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_ACCESS_PAGE_ALARM_HISTORY","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_ACCESS_PAGE_ALARM_HISTORY","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_ACCESS_PAGE_ALARM_HISTORY","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_ACCESS_PAGE_DEVICE_SETTINGS",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_ACCESS_PAGE_DEVICE_SETTINGS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_ACCESS_PAGE_DEVICE_SETTINGS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_ACCESS_PAGE_DEVICE_SETTINGS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_ACCESS_PAGE_DEVICE_SETTINGS","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_EDIT_DEVICE_SETTINGS",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_EDIT_DEVICE_SETTINGS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_EDIT_DEVICE_SETTINGS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_EDIT_DEVICE_SETTINGS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_EDIT_DEVICE_SETTINGS","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_ACCESS_PAGE_CHANNELS",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_ACCESS_PAGE_CHANNELS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_ACCESS_PAGE_CHANNELS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_ACCESS_PAGE_CHANNELS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_ACCESS_PAGE_CHANNELS","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_ACCESS_PAGE_SHELVED_ALARMS",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Posn":0,
+			"Vers":0,
+			"Signatures":{"Signature": false, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_ACCESS_PAGE_SHELVED_ALARMS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_ACCESS_PAGE_SHELVED_ALARMS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_ACCESS_PAGE_SHELVED_ALARMS","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_ACCESS_PAGE_SHELVED_ALARMS","Desc":"Desc", "Cat":"Cat"}
+			]
+		},
+		{	
+			"Name":"CAN_EDIT_COMMON_SYSTEM_FEATURES",
+			"Desc":"Desc",
+			"Cat":"Cat",
+			"Vers":0,
+			"Signatures":{"Signature": true, "Authorization": false, "Note": false},
+			"Langs": [
+				{"Code":"fr", "Name":"CAN_EDIT_COMMON_SYSTEM_FEATURES","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"de", "Name":"CAN_EDIT_COMMON_SYSTEM_FEATURES","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"es", "Name":"CAN_EDIT_COMMON_SYSTEM_FEATURES","Desc":"Desc", "Cat":"Cat"},
+				{"Code":"zh", "Name":"CAN_EDIT_COMMON_SYSTEM_FEATURES","Desc":"Desc", "Cat":"Cat"}
+			]
+		}
+	]
+}
+

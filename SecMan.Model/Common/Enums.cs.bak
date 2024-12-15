@@ -1,0 +1,28 @@
+﻿namespace SecMan.BL.Common
+{
+    public enum Languages
+    {
+        en,
+        fr,
+        de,
+        zh,
+        es
+    }
+
+
+
+    public enum Domain
+    {
+        local,
+        ad
+    }
+
+
+    public enum EventSeverity
+    {
+        Debug,
+        Info,
+        Warning,
+        Error
+    }
+}
